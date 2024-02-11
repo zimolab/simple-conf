@@ -1,0 +1,12 @@
+.venv/
+.idea/
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pycache/
+poetry.lock
+dev.md
