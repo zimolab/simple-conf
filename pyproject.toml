@@ -4,6 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["zimolab <zimolab@aliyun.com>"]
 readme = "README.md"
+license = "MIT"
+packages = [
+    {include = "simpleconf"},
+]
+homepage = "https://github.com/zimolab/simple-conf"
+repository = "https://github.com/zimolab/simple-conf"
+documentation = "https://github.com/zimolab/simple-conf"
 
 [tool.poetry.dependencies]
 python = "^3.10"
