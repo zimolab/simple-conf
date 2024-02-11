@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "simple-conf"
+name = "simple-dataclass-configuration"
 version = "0.1.0"
 description = ""
 authors = ["zimolab <zimolab@aliyun.com>"]
