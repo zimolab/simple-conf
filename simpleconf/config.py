@@ -3,7 +3,6 @@ import json
 
 import toml
 import yaml
-from yaml.dumper import Dumper
 
 from simpleconf.base import MarshmallowSerializable
 

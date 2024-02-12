@@ -10,3 +10,4 @@ __pycache__/
 .pycache/
 poetry.lock
 dev.md
+.better-commits.json
