@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "simple-dataclass-configuration"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["zimolab <zimolab@aliyun.com>"]
 readme = "README.md"
