@@ -1,7 +1,8 @@
 import dataclasses
 import json
 
-import toml
+import tomli
+import tomli_w
 import yaml
 
 from simpleconf.base import MarshmallowSerializable
@@ -37,12 +38,12 @@ class BaseTomlConfig(MarshmallowSerializable):
 
     def on_serialize(self, obj: dict, *args, **kwargs) -> str:
         """将字典序列化为toml字符串"""
-        return toml.dumps(obj, *args, **kwargs)
+        return tomli_w.dumps(obj, *args, **kwargs)
 
     @classmethod
     def on_deserialize(cls, data: str, *args, **kwargs) -> dict:
         """将toml字符串反序列化为字典"""
-        return toml.loads(data, *args, **kwargs)
+        return tomli.loads(data, *args, **kwargs)
 
 
 @dataclasses.dataclass
