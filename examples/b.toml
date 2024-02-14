@@ -1,0 +1,20 @@
+version = "1.0"
+
+[globals]
+a = 1
+b = 2
+
+[[rules."A"]]
+fn = "add"
+args = [1, 2]
+per_cell = false
+
+[[rules."A"]]
+fn = "style"
+kwargs = { color = "red" }
+per_cell = true
+
+[[rules."B"]]
+fn = "add"
+args = [1, 2]
+per_cell = true
